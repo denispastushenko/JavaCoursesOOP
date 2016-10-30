@@ -1,19 +1,19 @@
 package task0;
 
 public class Students {
-    int id = 0;
-    String name;
-    String lastName;
-    String fullName;
-    String dateOfBirth;
-    String adress;
-    String phoneAtributes;
-    Integer phone ;
-    String faculty;
-    int course;
-    int group = 0;
+    private int id = 0;
+    private String name;
+    private String lastName;
+    private String fullName;
+    private String dateOfBirth;
+    private String adress;
+    private String phoneAtributes;
+    private Integer phone ;
+    private String faculty;
+    private int course;
+    private int group = 0;
 
-    public Students(int id, String name, String lastName, String fullName, String dateOfBirth,
+     Students(int id, String name, String lastName, String fullName, String dateOfBirth,
                          String adress, String phoneAtributes, Integer phone, String faculty, int course, int group) {
         this.id = id;
         this.name = name;
@@ -27,9 +27,7 @@ public class Students {
         this.course = course;
         this.group = group;
     }
-    Students (){
 
-    }
 
     public int getId() {
         return id;
